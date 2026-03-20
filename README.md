@@ -14,6 +14,18 @@ cd ManiProt
 
 conda env create -f env.yml
 conda activate maniprot
+pip install -e .
+```
+
+### Replicating the papers environment
+```
+git clone https://github.com/ibmm-unibe-ch/ManiProt.git
+cd ManiProt
+
+conda env create -n maniprottest python=3.11.13
+conda activate maniprottest
+pip install -r env_replicate.txt
+pip install -e .
 ```
 
 ## Overview
