@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1162346899.svg)](https://doi.org/10.5281/zenodo.21976726)
+
 # maniprot.core
 
 **maniprot.core** is a Python library for Riemannian geometry on protein conformations.
